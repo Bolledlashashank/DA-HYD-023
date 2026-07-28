@@ -43,10 +43,11 @@ print(area)
 
 #multiassignment of variables
 
-name,location,age='codegnan','hyd',7
+name,location,age,phone='codegnan','hyd',7,12345
 print(name)
 print(location)
 print(age)
+print(phone)
 
 
 
