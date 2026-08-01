@@ -76,7 +76,7 @@ if age>=18 and age in [19,20,25]:
 print(age)
 
 '''
-
+'''
 age = int(input("Enter your age: "))
 
 if age >= 18:
@@ -85,6 +85,24 @@ else:
     years = 18 - age
     print("You are not eligible to vote.")
     print("You need to wait", years, "more years.")
+
+'''
+
+#marks
+marks= int(input("enter the marks:"))
+if marks >=0 and marks <=100 :
+    if marks >= 90 :
+        print("you got grade: A")
+    if marks >= 80 and marks <= 89 :
+        print("you got grade: B")
+    if marks >= 70 and marks <= 79 :
+        print("you got grade: c")
+    if marks >= 60 and marks <= 69 :
+        print("you got grade: D")
+    if marks < 60 :
+        print ("you got failed")
+else :
+    print("Enter only +ve values greater than 0 and less than 100 ")
 
 
 
