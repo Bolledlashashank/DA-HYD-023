@@ -38,8 +38,28 @@ email=input("Enter mail:").split()
 for mail in email:
     print(mail.split("@")[1])
 '''
-movies
-    
+#fibinoci series
+'''
+number=int(input("Enter the number:"))
+a=0
+b=1
+for i in range(number):
+    print(a,end=',')
+    c=a+b
+    a=b
+    b=c
+'''
+
+number=int(input("Enter the number:"))
+a=0
+b=1
+i=0
+while i < number:
+    print(a,end=',')
+    c=a+b
+    a=b
+    b=c
+    i=i+1
 
 
 
